@@ -35,3 +35,35 @@ Hi! I started learning programming two years ago. And since then I realized that
       
 <br>
     
+## Code Examples
+#### Accordion script
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+    }
+      
+<br>
+    
+## Work experience
+1. Freelance: 01.01.2019 - <b>present</b>
+    * [Dates site](http://myukrainedate2.websolutions.pp.ua/) - full development. Both back-end and front-end. Base - wordpress.
+      
+<br>
+    
+## Education
+I studied at:
+1. LeetCode;
+2. CodeWars;
+3. SoloLearn;
+      
+<br>
