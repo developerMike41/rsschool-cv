@@ -21,7 +21,7 @@ Hi! I started learning programming two years ago. And since then I realized that
 1. HTML, CSS:
     * SASS/SCSS
     
-2. JavaScript:
+2. HTML, CSS:
     * Core Js;
     * Jquery;
     
